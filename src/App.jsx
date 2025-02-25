@@ -12,7 +12,7 @@ import Navigations from "./components/Navigations"
 
 function App() {
   const [token, setToken] = useState(localStorage.getItem("token") || null);
-//add within the return statement (anything you want the user to see )
+
   return (
     <Router>
       <header>
