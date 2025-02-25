@@ -1,5 +1,5 @@
 /* TODO - add your code to create a functional React component that displays all of the available books in the library's catalog. Fetch the book data from the provided API. Users should be able to click on an individual book to navigate to the SingleBook component and view its details. */
-//This component fetches the list of books from the API and displays them, each linked to its detailed view.
+
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
