@@ -1,5 +1,5 @@
 /* TODO - add your code to create a functional React component that renders a registration form */
-//This component allows new users to register by sending their details to the API.
+
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
