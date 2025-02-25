@@ -1,5 +1,5 @@
 /* TODO - add your code to create a functional React component that renders details for a single book. Fetch the book data from the provided API. You may consider conditionally rendering a 'Checkout' button for logged in users. */
-//This component fetches and displays details of a single book based on the ID from the URL.
+
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
