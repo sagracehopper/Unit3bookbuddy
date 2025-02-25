@@ -1,5 +1,5 @@
 /* TODO - add your code to create a functional React component that renders a login form */
-//This component allows users to log in by sending their credentials to the API and storing the received token.
+
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
