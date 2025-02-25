@@ -1,4 +1,4 @@
-//This setup enables navigation between different pages of your application.
+
 import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Home";
@@ -20,7 +20,7 @@ function App() {
           <img id="logo-image" src={bookLogo} alt="Library Logo" />
           Library App
         </h1>
-        {/* Add navigation bar here */}
+        
         <Navigations />
       </header>
 
